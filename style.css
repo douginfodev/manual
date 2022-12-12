@@ -16,7 +16,7 @@ body {
 .wrapper {
     width: 100%;
     height: auto;
-    margin:0 auto;
+    margin: 0 auto;
     background-image: url('./assets/img/fblue.png');
 }
 
@@ -58,10 +58,33 @@ footer {
     justify-content: center;
 }
 
-.main-content{
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
     width: 100%;
     height: calc(100% - 1.6rem);
     background-image: url('./assets/img/fbutton.png');
+    border: 2px solid white;
+}
+
+.content-sumary {
+    width: 96%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-image: url('./assets/img/fblue.png');
+    border: 2px solid white;
+}
+
+.content-row {
+    width: 96%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: inherit;
+    background-image: url('./assets/img/fpurple.png');
     border: 2px solid white;
 }
 
