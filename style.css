@@ -27,12 +27,26 @@ main {
     background-image: url('./assets/img/fgreen.png');
 }
 
+figure{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 136.6rem;
+    margin-bottom: 1.0rem;   
+    border: 2px solid white; 
+}
+
+figure figcaption{
+    text-align: center;
+}
+
 footer {
     width: 100%;
     height: 20px;
     background-image: url('./assets/img/fblue1.png');
 }
 
+/*  HAEADER */
 .master-header {
     width: 100%;
     height: 11.0rem;
@@ -58,6 +72,7 @@ footer {
     justify-content: center;
 }
 
+/*  NAIN */
 .main-content {
     display: flex;
     flex-direction: column;
@@ -70,7 +85,7 @@ footer {
 
 .content-sumary {
     width: 96%;
-    height: 200px;
+    height: auto;
     margin: 0 auto;
     padding: 0.5rem;
     border-radius: 15px;
@@ -80,14 +95,15 @@ footer {
 
 .content-row {
     width: 96%;
-    height: 100px;
+    height: auto;
     margin: 0 auto;
-    padding: 0.5rem;
-    border-radius: inherit;
+    padding: 1.6rem;
+    border-radius: 15px;
     background-image: url('./assets/img/fpurple.png');
     border: 2px solid white;
 }
 
+/* FOOTER */
 .master-footer {
     width: 100%;
     height: 20px;
