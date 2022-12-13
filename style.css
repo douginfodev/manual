@@ -20,7 +20,7 @@
 }
 
 body {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     background-color: white;
 }
 
@@ -36,7 +36,6 @@ figure {
     margin: 0 auto;
     max-width: 136.6rem;
     margin-bottom: 1.0rem;
-    border: 2px solid white;
 }
 
 figure figcaption {
@@ -50,7 +49,7 @@ footer {
 }
 
 main {
-    width: 100%;
+    width: 136.6rem;
     height: auto;
     padding: 1.6rem;
     background-image: url('./assets/img/fundorosa.png');
@@ -73,7 +72,7 @@ ul {
 li {
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    padding: 1.0rem;
+    padding: 0.3rem;
 }
 
 ul li.itens {
@@ -94,10 +93,11 @@ a:visited {
 
 /*  PAGE */
 .wrapper {
-    width: 100%;
+    width: 136.6rem;
+    max-width: 136.6rem;
     height: auto;
     margin: 0 auto;
-    background-image: inherit;
+    background-image: url('./assets/img/fundorosa');
 }
 
 /*  HAEADER */
@@ -105,8 +105,7 @@ a:visited {
     width: 100%;
     height: 11.0rem;
     padding: 1.0rem;
-    background-image: url('./assets/img/fbutton.png');
-    border: 2px solid white;
+    background-color: white;
 }
 
 .header-logo {
@@ -119,8 +118,9 @@ a:visited {
 
 .header-title {
     display: flex;
-    width: 300px;
-    height: inherit;
+    width: 350px;
+    height: auto;
+    padding: 1.0rem;
     float: right;
     align-items: center;
     justify-content: center;
@@ -134,7 +134,8 @@ a:visited {
     width: 100%;
     height: calc(100% - 1.6rem);
     padding-bottom: 1.6rem;
-    background-image: inherit;
+    border-radius: 15px;
+    background-image: url('./assets/img/fundorosa');
 }
 
 .content-sumary {
@@ -143,8 +144,6 @@ a:visited {
     margin: 0 auto;
     padding: 0.5rem;
     border-radius: 15px;
-    background-image: url('./assets/img/fblue.png');
-    border: 2px solid white;
 }
 
 .content-row {
@@ -153,7 +152,8 @@ a:visited {
     margin: 0 auto;
     padding: 1.6rem;
     border-radius: 15px;
-    background-image: url('./assets/img/fpurple.png');
+    background-color: white;
+    /* background-image: url('./assets/img/fpurple.png'); */
     border: 1px solid var(--border-color);
 }
 
