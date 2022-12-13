@@ -7,40 +7,39 @@
 }
 
 :root {
+    /* COLORS */
     --font-primary-color: #a25c58;
-    --font-p-color:       #6c6868;
+    --font-p-color: #6c6868;
+
+    --border-color: #a25c58;
+    --row-container-color: white;
+
+    /* FONTS */
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
     font-size: 2.2rem;
-    background-image: url('./assets/img/fblue.png');
+    background-color: white;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     color: var(--font-primary-color);
 }
 
-p {    
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400; 
-  text-align: justify;
-  color: black;
-  margin: 2.0rem;
-  color: var(--font-p-color);
-}
-
-figure{
+figure {
     width: 100%;
     height: auto;
     margin: 0 auto;
     max-width: 136.6rem;
-    margin-bottom: 1.0rem;   
-    border: 2px solid white; 
+    margin-bottom: 1.0rem;
+    border: 2px solid white;
 }
 
-figure figcaption{
+figure figcaption {
     text-align: center;
 }
 
@@ -54,15 +53,51 @@ main {
     width: 100%;
     height: auto;
     padding: 1.6rem;
-    background-image: url('./assets/img/fgreen.png');
+    background-image: url('./assets/img/fundorosa.png');
 }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    color: black;
+    margin: 2.0rem;
+    color: var(--font-p-color);
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 1.0rem;
+}
+
+ul li.itens {
+    padding-left: 5.0rem;
+}
+
+a {
+    color: var(--font-primary-color);
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:visited {
+    color: var(--font-primary-color);
+}
+
 
 /*  PAGE */
 .wrapper {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-image: url('./assets/img/fblue.png');
+    background-image: inherit;
 }
 
 /*  HAEADER */
@@ -99,8 +134,7 @@ main {
     width: 100%;
     height: calc(100% - 1.6rem);
     padding-bottom: 1.6rem;
-    background-image: url('./assets/img/fbutton.png');
-    border: 2px solid white;
+    background-image: inherit;
 }
 
 .content-sumary {
@@ -120,7 +154,7 @@ main {
     padding: 1.6rem;
     border-radius: 15px;
     background-image: url('./assets/img/fpurple.png');
-    border: 2px solid white;
+    border: 1px solid var(--border-color);
 }
 
 /* FOOTER */
