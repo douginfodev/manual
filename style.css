@@ -82,7 +82,7 @@ li {
 }
 
 ul li.itens {
-    padding-left: 5.0rem;
+    margin-left: 5.0rem;
 }
 
 a {
@@ -94,6 +94,13 @@ a:active,
 a:hover,
 a:visited {
     color: var(--font-primary-color);
+}
+
+.titlesection{
+    border-style: solid;
+    border-color: var(--font-primary-color);
+    border-top: 1px;
+    border-bottom: 1px;
 }
 
 
@@ -124,9 +131,9 @@ a:visited {
 
 .header-title {
     display: flex;
-    width: 350px;
+    width: 450px;
     height: auto;
-    padding: 1.0rem;
+    padding: 2.0rem;
     float: right;
     align-items: center;
     justify-content: center;
