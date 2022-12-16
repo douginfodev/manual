@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>FTI - Guia do Usuario</title>
+    <title>FTI - Guia do Corretor</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="header-title">
-                    <h1>Guia do Usuário</h1>
+                    <h1>Guia do Corretor</h1>
                 </div>
             </div>
         </head>
@@ -41,49 +41,56 @@
                         <li>
                             <h2> 2 - Imagens (Midia)</h2>
                         </li>
-                        <li class="itens"><a href="#img-biblioteca">2.1 - Visualizar Biblioteca</a></li>
-                        <li class="itens"><a href="#img-biblioteca">2.2 - Adicionar Imagens</a></li>
+                        <li class="itens"><a href="#img-biblioteca">2.1 - Adicionar Imagens</a></li>
 
                         <li></li>
                         <li>
                             <h2> 3 - Imoveis (Property)</h2>
                         </li>
-                        <li class="itens"><a href="#">3.1 - Visualizar imóveis</a></li>
-                        <li class="itens"><a href="#">3.2 - Adicionar Imóveis</a></li>
+                        <li class="itens"><a href="#imvvis">3.1 - Visão Geral</a></li>
+                        <li class="itens"><a href="#imvadd">3.2 - Adicionar Imóveis</a></li>
+                        <li class="itens"><a href="#imvdetails">3.3 - Detalhes do Imóvel</a></li>
+                        <li class="itens"><a href="#imvgallery">3.4 - Imóveis Imagens</a></li>
+                        <li class="itens"><a href="#imvplantas">3.5 - Imóveis Plantas</a></li>
+                        <li class="itens"><a href="#imvvideos">3.6 - Imóveis Videos</a></li>
 
                         <li></li>
                         <li>
-                            <h2> 4 - Visao 360º(WPVR)</h2>
+                            <h2> 4 - Visao 360º(WP VR)</h2>
                         </li>
-                        <li class="itens"><a href="#">4.1 - Visualizar depoimentos</a></li>
-                        <li class="itens"><a href="#">4.2 - Adicionar depoimentos</a></li>
-
+                        <li class="itens"><a href="#wpvrvis"> 4.1 - Visão Geral</a></li>
+                        <li class="itens"><a href="#wpvradd"> 4.2 - Adicionar Imagem 360º</a></li>
+                        <li class="itens"><a href="#wpvrvideo"> 4.1 - Adicionar Video 360º</a></li>
                         <li></li>
                         <li>
-                            <h2> 5 -  Depoimentos(testimonials) </h2>
+                            <h2> 5 - Depoimentos(testimonials) </h2>
                         </li>
-                        <li class="itens"><a href="#">5.1 - Visao Geral</a></li>
-                        <li class="itens"><a href="#">5.2 - Adicionar Imagem 360º</a></li>
-                        <li class="itens"><a href="#">5.2 - Adicionar Video 360º</a></li>
+                        <li class="itens"><a href="#depovis">5.1 - Visao Geral</a></li>
+                        <li class="itens"><a href="#depoadd">5.2 - Adicionar Depoimentos</a></li>
 
                         <li></li>
                         <li>
                             <h2> 6 - Corretores</h2>
                         </li>
-                        <li class="itens"><a href="#">6.1 - Visualizar Corretores</a></li>
+                        <li class="itens"><a href="#usersvis">6.1 - Visão Geral</a></li>
+                        <li class="itens"><a href="#usersadd">6.2 - Adicionar Corretores</a></li>
+                        <li class="itens"><a href="#usersedtx">6.3 - Editar / Excluir Corretores</a></li>
 
                         <li></li>
                         <li>
                             <h2> 7 - Chat Online</h2>
                         </li>
-                        <li class="itens"><a href="#">7.1 - Visao Geral</a></li>
+                        <li class="itens"><a href="#twlogin">7.1 - Página de Login</a></li>
+                        <li class="itens"><a href="#twdash">7.2 - Páinel Administrativo - Visão Geral </a></li>
+                        <li class="itens"><a href="#twinvite">7.3 - Adicionar - Corretor</a></li>
+                        <li class="itens"><a href="#twapk">7.7 - Download Aplicativos</a></li>
 
                     </ol>
                 </div>
 
-                <!-- AREA DO CORRETOR 
+                <!-- 1 = AREA DO CORRETOR -->
                 <div class="content-row" id="area-corretor">
-                    <h1>1 - Painel - Visão Geral</h1>
+                    <h1 class="titlesection">1 - Painel - Visão Geral</h1>
 
                     <figure>
                         <img src="./assets/img/painel.png" alt="Area do Corretor" style="width:100%">
@@ -101,15 +108,20 @@
                     <p>
                         3 - Perfil do Corretor / Sair do Painel.
                     </p>
-                </div> -->
+                </div> <!-- END CORRETOR -->
 
-                <!-- IMAGES  
+                <!-- 2 - IMAGE -->
                 <div class="content-row" id="img-biblioteca">
-                    <h1>2 - Imagems</h1>
+                    <h1 class="titlesection">2 - Imagems</h1>
                     <h3>2.1 - Adicionar Imagem</h3>
 
+                    <figure>
+                        <img src="./assets/img/2biblioteca.png" alt="Area do Corretor" style="width:100%">
+                        <figcaption>Fig.2 - Biblioteca de Imagens </figcaption>
+                    </figure>
+
                     <p>
-                        1º - Na tela de biblioteca de imagens, clique no botão Adicionar Nova.
+                        1º - Na tela de biblioteca de imagens, clique no botão <span>Adicionar Nova</span>.
                     </p>
 
                     <figure>
@@ -119,28 +131,29 @@
 
 
                     <p>
-                        2º - Clique no botão Selecionar Arquivo ou arrste aqui uma imagem.
-                    </p>
-
-
-                    <p>
-                        3º - Ao cliquar no botão de selecionar arquivo, sera mostrado a tela para eescolher o arquivo.
+                        2º - Clique no botão <span>Selecionar Arquivo</span> ou <span>arraste aqui</span> uma imagem.
                     </p>
 
                     <p>
-                        4º - Após escolido o arquivo(s) que deseja enviar para o site, clique no botao selecionar para
-                        que as imagens possa ser adicionadas a biblioteca.
+                        3º - Na tela que abrir, selecione o arquivo que deseja inserir.
                     </p>
 
                     <p>
-                        5º - Pronto, sua imagem aparecerá abaixo na biblioteca. Repita estes passos toda as vezes que
-                        precisar adicionar imagens ao site.
+                        4º - Clique no botão <span>selecionar</span> para adicionar a imagem a biblioteca de mídias.
                     </p>
-                </div> -->
 
-                <div class="content-row" id="users">
+                    <p>
+                        5º - Feito tudo correto, sua imagem aparecerá abaixo na biblioteca.<br>
+                        <span>OBS: Repita estes passos sempre que precisar adicionar imagens ao site.</span>
+                    </p>
+
+                </div> <!-- END IMAGE -->
+
+                <!-- 3 - PROPERTY -->
+                <div class="content-row" id="imvvis">
+                    <!-- GERAL -->
                     <div class="subsection">
-                        <h1>3 - Imóveis(Property)</h1>
+                        <h1 class="titlesection">3 - Imóveis(Property)</h1>
 
                         <h3>3.1 - Visáo Geral</h3>
 
@@ -158,7 +171,7 @@
                         </p>
 
                         <p>
-                            3º - Editar <span>Imóvel</span>.   
+                            3º - Editar <span>Imóvel</span>.
                         </p>
 
                         <p>
@@ -170,7 +183,7 @@
                     </div>
 
                     <!-- ADD -->
-                    <div class="subsection">
+                    <div class="subsection" id="imvadd">
                         <h3>3.2 - Adicionar Imóveis</h3>
                         <p>
                             1º - Clique no botão <span>Add New</span> e preencha os dados do imóvel.
@@ -192,74 +205,95 @@
                         <p>
                             4º - Clique em <span>Publicar ou Atualizar</span>para gravar as informações.
                         </p>
-                        <p>                            
+                        <p>
                         </p>
                     </div>
 
                     <!-- DETALHES -->
-                    <div class="subsection">
+                    <div class="subsection" id="imvdetails">
                         <h3>3.3 - Detalhes do Imóvel</h3>
-                      
+
                         <figure>
                             <img src="./assets/img/propertydetails.png" alt="Area do Corretor" style="width:100%">
                             <figcaption>Fig. 3.3 - Formuláro Detaihes do Imóvel</figcaption>
                         </figure>
-                        
+
                         <p>
                             1º - Preencha os campos com ás informações do imóvel.
                         </p>
-                        
+
                         <p>
                             2º - Digite o id da Visáo 360.(Caso o imóvel possua a imagem ou video 360º).
-                            <h3>OBS: Este id e gerado quando for adicionado a imagem ou video no WPVR.<br>
-                                Se o imóvel não possue imagem ou video 360º, deixar o campo em branco</h3> 
+                        <h3>OBS: Este id e gerado quando for adicionado a imagem ou video no WPVR.<br>
+                            Se o imóvel não possue imagem ou video 360º, deixar o campo em branco</h3>
                         </p>
-                        <p>                            
+                        <p>
                         </p>
                     </div>
 
-                    <!-- PLANTAS 
-                    <div class="subsection">
-                        <h3>3.4 - Imóvel - Plantas</h3>
-                      
+                    <!-- GALERY -->
+                    <div class="subsection" id="imvgallery">
+                        <h3>3.4 - Imóvel - Imagens</h3>
+
+                        <figure>
+                            <img src="./assets/img/propertyimgggalery.png" alt="Area do Corretor" style="width:100%">
+                            <figcaption>Fig.3.4 - Imóveis Imagens</figcaption>
+                        </figure>
+
+                        <p>
+                            1º - Para adicionar a imagem, clique no botão<span>Adicionar Imagem</span>.
+                        </p>
+                        <p>
+                            2º - Clique no botão <span>Remover</span> para excluir a imagem
+                        </p>
+                    </div>
+
+                    <!-- PLANTAS -->
+                    <div class="subsection" id="imvplantas">
+                        <h3>3.5 - Imóvel - Plantas</h3>
+
                         <figure>
                             <img src="./assets/img/propertyplants.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig.3.4 - Plantas Imagems</figcaption>
+                            <figcaption>Fig. 3.5 - Plantas Imagems</figcaption>
                         </figure>
-                        
+
                         <p>
-                            1º - Clique na<span>Imagem</span> ou no botáo <span>Add</span> para adicionar a imagem da planta.
+                            1º - Para adicionar a imagem da planta, clique no botão<span>Imagem</span> ou no botáo
+                            <span>Add</span>.
                         </p>
                         <p>
-                            2º - Repita o passo 1, quantas vezes for necessário, para adicionar novas plantas.
+                            2º - Repita o passo 1, quantas vezes for necessário, para adicionar novas imagens de
+                            plantas.
                         </p>
                     </div>
 
-                     VIDEO 
-                    <div class="subsection" id="imvvideo">
-                        <h3>3.5 - Imóvel - Video</h3>
-                          <h3>3.5.1 - Copiar link do video do Youtube</h3> 
+                    <!-- VIDEO -->
+                    <div class="subsection" id="imvvideos">
+                        <h3>3.6 - Imóvel - Videos</h3>
+                        <h3>3.6.1 - Copiar link do video do Youtube</h3>
                         <figure>
                             <img src="./assets/img/propertyvideo.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig. 3.5.1 - Video no Youtube</figcaption>
+                            <figcaption>Fig. 3.6.1 - Video no Youtube</figcaption>
                         </figure>
-                        
+
                         <p>
-                            1º - Pesquise o video no <span>YouTube</span> ou <span>Vimeo</span> que deseja adicionar no site .
+                            1º - Pesquise o video no <span>YouTube</span> ou <span>Vimeo</span> que deseja adicionar no
+                            site.
                         </p>
 
                         <p>
-                            2º - Clique na opção<span>Compartilhar</span> do video no youtube.
+                            2º - Clique na opção<span>Compartilhar</span>.
                         </p>
 
                         <p>
-                            3º - Copie o codigo do video: EX:<span>https://youtu.be/I2UB3QZ3FF8</span> e cole no campo youtube da tela abaixo.
+                            3º - Copie o codigo do video: EX:<span>https://youtu.be/I2UB3QZ3FF8</span> e cole no campo
+                            youtube da tela abaixo.
                         </p>
-                        
-                        <h3>3.5.2 - Adicionar o link na pagina do imóvel</h3> 
+
+                        <h3>3.6.2 - Adicionar o link na pagina do imóvel</h3>
                         <figure>
                             <img src="./assets/img/propertyvideos.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig. 3.5.2 - Adicionar videos do imóvel</figcaption>
+                            <figcaption>Fig. 3.6.2 - Adicionar videos do imóvel</figcaption>
                         </figure>
 
                         <p>
@@ -269,196 +303,403 @@
                         <p>
                             5º - Clique no botão <span>Publicar ou Atualizar</span> para salvar.
                         </p>
-
                     </div>
+                </div> <!-- END PROPERTY -->
 
-                </div>  END VIDEO -->
+                <!-- 4 - TOUR 360 -->
+                <div class="subsection" id="wpvrvis">
+                    <h1 class="titlesection">4 - TOUR 360 (WPVR)</h1>
+                    <h3>4.1 - Visão Geral</h3>
+                    <figure>
+                        <img src="./assets/img/wpvrview.png" alt="Area do Corretor" style="width:100%">
+                        <figcaption>Fig. 4.1 - Visão geral</figcaption>
+                    </figure>
 
-                    <!-- TOUR 360 --> 
-                    <div class="subsection" id="imvvideo">
-                        <h3>4 - TOUR 360 (WPVR)</h3>
-                        <h3>4.1 - Visão Geral</h3> 
-                        <figure>
-                            <img src="./assets/img/wpvrview.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig. 4.1 - Visã´geral</figcaption>
-                        </figure>
-                        
-                        <p>
-                            1º - Clique na opção <span>WP VR</span> do menu na barra lateral.
-                        </p>
+                    <p>
+                        1º - Clique na opção <span>WP VR</span> do menu na barra lateral.
+                    </p>
 
-                        <p>
-                            2º - Botão <span>Nova Tour</span>.
-                        </p>
+                    <p>
+                        2º - Botão <span>Nova Tour</span>.
+                    </p>
 
-                        <p>
-                            3º - Link <span>Editar Tour</span>.   
-                        </p>
+                    <p>
+                        3º - Link <span>Editar Tour</span>.
+                    </p>
 
-                        <p>
-                            4º - Link <span>Excluir Tour</span>.
-                        </p>
+                    <p>
+                        4º - Link <span>Excluir Tour</span>.
+                    </p>
 
-                        <p>
-                        </p>
+                    <p>
+                    </p>
 
-                        <!-- ADD IMAGEM 360-->
-                        <h3>4.2 - Adicionar Imagem 360º</h3> 
-                        <figure>
-                            <img src="./assets/img/wpvrgeral.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig. 4.2 - Imagem 360 - Tela 1</figcaption>
-                        </figure>
-                        
-                        <p>
-                            1º - Clique na opção <span>GERAL</span> da barra lateral esquerda.
-                        </p>
+                    <!-- ADD IMAGEM 360-->
+                    <h3 id="wpvradd">4.2 - Adicionar Imagem 360º</h3>
+                    <figure>
+                        <img src="./assets/img/wpvrgeral.png" alt="Area do Corretor" style="width:100%">
+                        <figcaption>Fig. 4.2 - Imagem 360 - Tela 1</figcaption>
+                    </figure>
 
-                        <p>
-                            2º - Digite o <span>nome da tour</span>.
-                        </p>
+                    <p>
+                        1º - Clique na opção <span>GERAL</span> da barra lateral esquerda.
+                    </p>
 
-                        <p>
-                            3º - <span>Upload a imagem</span> da tour.   
-                        </p>
+                    <p>
+                        2º - Digite o <span>nome da tour</span>.
+                    </p>
 
-                        <p>
-                            4º - Clique na opção <span>Tour</span> da barra lateral esquerda..
-                        </p>
+                    <p>
+                        3º - <span>Upload a imagem</span> da tour.
+                    </p>
 
-                        <p>
-                        </p>
+                    <p>
+                        4º - Clique na opção <span>Tour</span> da barra lateral esquerda..
+                    </p>
 
-                        <figure>
-                            <img src="./assets/img/wpvrimg360.png" alt="Area do Corretor" style="width:100%">
-                            <figcaption>Fig. 4.2.1 - Imagem 360 - Tela 2</figcaption>
-                        </figure>
-                        
-                        <p>
-                            5º - Digite o <span>id da tour</span> disponibilizado na tela de preview()lado direito).
-                        </p>
+                    <p>
+                    </p>
 
-                        <p>
-                            6º - Clique no botão <span>Upload</span> para adicionar a imagem 360º.
-                        </p>
+                    <figure>
+                        <img src="./assets/img/wpvrimg360.png" alt="Area do Corretor" style="width:100%">
+                        <figcaption>Fig. 4.2.1 - Imagem 360 - Tela 2</figcaption>
+                    </figure>
 
-                        <p>
-                            7º - Clique no botão<span>Preview</span> para gerar a tour.   
-                        </p>
+                    <p>
+                        5º - Digite o <span>id da tour</span> disponibilizado na tela de preview()lado direito).
+                    </p>
 
-                        <p>
-                            8º - Clique no botão <span>Publicar</span> para salvar a tour.
-                        </p>
+                    <p>
+                        6º - Clique no botão <span>Upload</span> para adicionar a imagem 360º.
+                    </p>
 
-                        <p>
-                        </p>
+                    <p>
+                        7º - Clique no botão<span>Preview</span> para gerar a tour.
+                    </p>
 
-                     
+                    <p>
+                        8º - Clique no botão <span>Publicar</span> para salvar a tour.
+                    </p>
 
-                        <!-- ADD VIDE0 360-->
-                        <h3>4.4 - Adicionar Video 360º</h3> 
-                        <figure>
-                            <img src="./assets/img/wpvrvideo.png" alt="" style="width:100%">
-                            <figcaption>Fig. 4.4 - Adicionar Video 360º</figcaption>
-                        </figure>
-                        
-                        <p>
-                            1º - Clique np ícone <span>Video</span> na lateral esquerda.
-                        </p>
+                    <p>
+                    </p>
 
-                        <p>
-                            2º - Clique na opção <span>Sim</span> do Habilitar video.
-                        </p>
 
-                        <p>
-                            3º - Digite o link do video do youtube / vimeo ou clique no botão <span>Upload</span>.   
-                        </p>
 
-                        <p>
-                            4º - Clique no botão <span>Preview</span> pata gerar o id do video.
-                        </p>
+                    <!-- ADD VIDE0 360-->
+                    <h3 id="wpvrvideo">4.4 - Adicionar Video 360º</h3>
+                    <figure>
+                        <img src="./assets/img/wpvrvideo.png" alt="" style="width:100%">
+                        <figcaption>Fig. 4.4 - Adicionar Video 360º</figcaption>
+                    </figure>
 
-                        <p>
-                            5º - Clique no botão <span>Atualzar</span> pata salvar.
-                        </p>
+                    <p>
+                        1º - Clique np ícone <span>Video</span> na lateral esquerda.
+                    </p>
 
-                        <p>
-                        </p>
-                     </div>
-                <!-- REAL STATE  
+                    <p>
+                        2º - Clique na opção <span>Sim</span> do Habilitar video.
+                    </p>
+
+                    <p>
+                        3º - Digite o link do video do youtube / vimeo ou clique no botão <span>Upload</span>.
+                    </p>
+
+                    <p>
+                        4º - Clique no botão <span>Preview</span> pata gerar o id do video.
+                    </p>
+
+                    <p>
+                        5º - Clique no botão <span>Atualzar</span> pata salvar.
+                    </p>
+
+                    <p>
+                    </p>
+                </div> <!-- END TOUR 360 -->
+
+                <!-- 5 - TESTIMONIALS -->
+                <div class="content-row" id="depovis">
+                    <h1 class="titlesection">5 - Depoimentos (Testimonials)</h1>
+                    <h3>5.1 - Visão Geral</h3>
+
+                    <figure>
+                        <img src="./assets/img/depvis.png" alt="Area do Corretor" style="width:100%">
+                        <figcaption>Fig. 5.1 - Todos Depoimentos</figcaption>
+                    </figure>
+
+                    <p>
+                        1º - Clique na opção <span>Testimonials</span> do menu na barra lateral.
+                    </p>
+
+                    <p>
+                        2º - Botão <span>Adicionar Novo</span>.
+                    </p>
+
+                    <p>
+                        3º - Link <span>Editar</span>.
+                    </p>
+
+                    <p>
+                        4º - Link <span>Excluir</span>.
+                    </p>
+
+                    <p>
+                    </p>
+
+                    <!-- ADD -->
+                    <h3 id="depoadd">5.2 - Adicionar Depoimentos</h3>
+                    <figure>
+                        <img src="./assets/img/depadd.png" alt="" style="width:100%">
+                        <figcaption>Fig. 5.2 - Adicionar Depoimentos</figcaption>
+                    </figure>
+
+                    <p>
+                        1º - Digite o <span>nome do cliente</span>.
+                    </p>
+
+                    <p>
+                        2º - Adicione a <span>imagem do cliente</span>.
+                    </p>
+
+                    <p>
+                        3º - Digite o <span>depoimento do cliente</span>.
+                    </p>
+
+                    <p>
+                        4º - Repita o <span>nome do cliente</span> neste campo.
+                    </p>
+
+                    <p>
+                        5º - Clique no botão <span>Publicar</span> para salvar.
+                    </p>
+
+                    <p>
+                    </p>
+                </div> <!-- END TESTIMONIALS -->
+
+
+                <!-- 6 - USERS -->
                 <div class="content-row" id="users">
-                  <div class="subsection">  
-                    <h1>6 - Corretores</h1>
+                    <div class="subsection">
+                        <h1 class="titlesection">6 - Corretores</h1>
+                        <div class="subsection">
+                            <h3 id="usersvis">6.1 - Visualizar Todos Corretores</h3>
 
-                    <h3>6.1 - Adicionar Corretores</h3>
+                            <p>
+                                1º - Ma barra de Menu Lateral, Selecione a Opção <span>Usuario->Todos Usuarios</span>tão
+                                Adicionar Nova.
+                            </p>
 
-                    <p>
-                        1º - Clique na opção´<span>Usuários</span> na barra de Menu Lateral.
-                    </p>
+                            <figure>
+                                <img src="./assets/img/usuariovisualizar.png" alt="Area do Corretor" style="width:100%">
+                                <figcaption>Fig. 6.1 - Visualizar todos corretores</figcaption>
+                            </figure>
 
-                    <p>
-                        2º - Preencher todos os campos, na tela abaixo.
-                    </p>
+                            <p>
+                                2º - Clque no botáo <span>Adicionar Novo</span> para adicionar novo corretor.
+                            </p>
+                            <p>
+                            </p>
+                            <!-- ADD -->
+                            <h3 id="usersadd">6.2 - Adicionar Corretores</h3>
 
-                    <figure>
-                        <img src="./assets/img/usuariocadastrar.png" alt="Area do Corretor" style="width:100%">
-                        <figcaption>Fig.2 - Biblioteca de Imagens </figcaption>
-                    </figure>
+                            <p>
+                                1º - Clique na opção´<span>Usuários</span> na barra de Menu Lateral.
+                            </p>
+
+                            <p>
+                                2º - Preencha todos os campos, na tela abaixo.
+                            </p>
+
+                            <figure>
+                                <img src="./assets/img/usuariocadastrar.png" alt="Area do Corretor" style="width:100%">
+                                <figcaption>Fig. 6.2 - Formulário de Cadastro de Usuários </figcaption>
+                            </figure>
 
 
-                    <p>
-                        3º - Na opção <span>Função</span>, selecione <span>Editor</span>.
-                    </p>
+                            <p>
+                                3º - Na opção <span>Função</span>, selecione <span>Editor</span>.
+                            </p>
 
 
-                    <p>
-                        4º - Clique no botão <span>Adicionar novo usuário</span> para salvar o cadastro;
-                    </p>
+                            <p>
+                                4º - Clique no botão <span>Adicionar novo usuário</span> para salvar o cadastro;
+                            </p>
 
-                    <p>
-                    </p>
-                  </div>
+                            <p>
+                            </p>
 
-                 VIEW 
-                <div class="subsection">
-                    <h3>6.1 - Visualizar Todos Corretores</h3>
+                            <!-- USERS EDIT / DELETE -->
+                            <h3 id="usersedtx">6.3 - Editar / excluir Corretores</h3>
 
-                    <p>
-                        1º - Ma barra de Menu Lateral, Selecione a Opção <span>Usuario->Todos Usuarios</span>tão
-                        Adicionar Nova.
-                    </p>
+                            <figure>
+                                <img src="./assets/img/usuariovisualizar.png" alt="Area do Corretor" style="width:100%">
+                                <figcaption>Fig. 6.3 - Editar / Excluir todos corretores</figcaption>
+                            </figure>
+                            <p>
+                                1º - Na tela Visualizar todos Corretores, <span>Usuario->Todos Usuarios</span>tão
+                            </p>
 
-                    <figure>
-                        <img src="./assets/img/usuariovisualizar.png" alt="Area do Corretor" style="width:100%">
-                        <figcaption>Fig.2 - Visualizar todos corretores</figcaption>
-                    </figure>
+                            <p>
+                                2º - Para <span>Editar</span>, de um clique em cima do nome do usuário que deseja editar
+                                o perfil.
+                            </p>
 
-                    <p>
-                        2º - Clque no botáo <span>Adicionar Novo</span> para adicionar novo corretor.
-                    </p>
+                            <p>
+                                3º - Para <span>Excluir</span>, posicione o ponteiro do mouse, em cima do nome do
+                                usuário, e clique no link <span>Excluir</span>.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- USERS-->
+
+                <!-- 7 - CHAT -->
+                <div class="content-row" id="twlogin">
+                    <div class="subsection">
+                        <h1 class="titlesection">7 - Chat Online</h1>
+                        <!-- 7.1 LOGIN -->
+                        <div class="subsection">
+                            <h3 id="usersvis">7.1 - Painel de Login</h3>
+
+                            <figure>
+                                <img src="./assets/img/twlogin.png" alt="Area do Corretor" style="width:100%">
+                                <figcaption>Fig. 7.1 - Página de Login</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Clique <span><a href="https://dashboard.tawk.to/login?lang=pt_br"
+                                        target="_blank">aqui</a></span> para acessar a <span>tela de login</span>.
+                            </p>
+                            <p>
+                            </p>
+                        </div> <!-- END LOGIN -->
+
+                        <!-- 7.2 DASH -->
+                        <div class="subsection">
+                            <h3 id="twdash">7.2 - Painel Administrativo</h3>
+
+                            <figure>
+                                <img src="./assets/img/twdashboard.png" alt="Painel Administrativo" style="width:100%">
+                                <figcaption>Fig. 7.2 - Painel Administrativo - dashboard</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Visão Geral do <span>Painel Administrativo</span>.
+                            </p>
+
+                            <p>
+                                2º - <span>Barra de ferramentas</span>.
+                            </p>
+
+                            <p>
+                                3º - <span>Sala do chat-online</span>.
+                            </p>
+
+                            <p>
+                                4º - <span>Lista de corretores</span>.
+                            </p>
+
+                            <p>
+                                5º - <span>Pefil do Corretor</span>.
+                            </p>
+                        </div> <!-- END DASH -->
+
+                        <!-- 7.3 INVITE -->
+                        <div class="subsection">
+                            <h3 id="twinvite">7.2 - Adicionar(Convidar) Corretor</h3>
+
+                            <figure>
+                                <img src="./assets/img/twusersvis.png" alt="Adicionar Corretor" style="width:100%">
+                                <figcaption>Fig. 7.2 - Tela de Convite de corretor</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Clique no botão <span>Administração</span> ma barra de ferramentas superior.
+                            </p>
+
+                            <p>
+                                2º - Na barra lateral esquerda, clique em <span>Gestão de Usuários</span>. </p>
+                            </p>
+
+                            <p>
+                                3º - Clique no botão <span>Convidar membro</span>.
+                            </p>
+
+
+                            <h3 id="twinvite">7.2.1 - Envisr convite so corretor</h3>
+
+                            <figure>
+                                <img src="./assets/img/twconvite.png" alt="Tela de convite" style="width:100%">
+                                <figcaption>Fig. 7.2.1 - Tela de Convite de corretor</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Digite o <span>email do corretor</span> que deseja enviar o convite.<br>
+                                <span>OBS: Caso deseja enviar convites para mais corretores, clique no botão + Adicionar
+                                    outro.</span>
+                            </p>
+
+                            <p>
+                                3º - Clique no botão <span>Enviar convite</span> para enviar email com o convite para o
+                                corretor.
+                            </p>
+
+                            <h3 id="twinvite">7.2.3 - Email e criação de conta de acesso ao chat-online</h3>
+
+                            <figure>
+                                <img src="./assets/img/twemailinit.png" alt="Email e conta" style="width:100%">
+                                <figcaption>Fig. 7.2.3 - Tela de Convite de corretor</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Com o email automático, que o corretor recebeu, clique no botão<span>create
+                                    account</span> para ser redirecionado a tela de criaçã´da conta. <span>OBS: Caso
+                                    deseja enviar convites para mais corretores, clique no botão + Adicionar
+                                    outro.</span>
+                            </p>
+
+                            <p>
+                                2º - Na tela de criaçãó de conta, preencha o campo <span>Insira seu nome</span>.<br>
+                                <span>OBS: Este nome é o que será mostrado no chat-online quando estiver conversando com
+                                    o cliente.</span>
+                            </p>
+
+                            <p>
+                                3º - Confirme o email. <span>Não necessita ser alterado.</span>
+                            </p>
+
+                            <p>
+                                4º - Crie uma <span>senha de acesso.</span>
+                            </p>
+
+                            <p>
+                                5º - Clique no botão <span>Registra-se</span> para ter acesso ao <span>painel
+                                    admistrativo</span> do chat-online;
+                            </p>
+                            <p>
+                            </p>
+                        </div> <!-- END INVITE  -->
+
+                        <!-- APK -->
+                        <div class="subsection">
+                            <h3 id="twapk">7.7 - Aplicativos</h3>
+
+                            <figure>
+                                <img src="./assets/img/twmobiles.png" alt="Download Aplicativos" style="width:100%">
+                                <figcaption>Fig. 7.7 - Google Play Store e Apple Store</figcaption>
+                            </figure>
+
+                            <p>
+                                1º - Download aplicativo Android Play Store - <span><a href="https://play.google.com/store/apps/details?id=to.tawk.android" target="_blank">Clique Aqui</a></span>.
+                            </p>
+
+                            <p>
+                                2º - Download aplicativo Apple Store - <span><a href="https://apps.apple.com/br/app/tawk-to/id907458277" target="_blank">Clique Aqui</a></span>.
+                            </p>
+                        </div> <!--  END APK -->
+                    </div>
                 </div>
 
-                 EDIT / DELETE 
-                <div class="subsection">
-                    <h3>6.3 - Edotar / excluir Corretores</h3>
-
-                    <p>
-                        1º - Ma tela de Visualzar todos Corretores, <span>Usuario->Todos Usuarios</span>tão
-                        Adicionar Nova.
-                    </p>
-
-                    <figure>
-                        <img src="./assets/img/usuariovisualizar.png" alt="Area do Corretor" style="width:100%">
-                        <figcaption>Fig.2 - Visualizar todos corretores</figcaption>
-                    </figure>
-
-                    <p>
-                        2º - Clque no botáo <span>Adicionar Novo</span> para adicionar novo corretor.
-                    </p>
-                </div>
-              </div>  REAL STATE -->
-
-
-            </div>
         </main>
 
         <!-- site Footer 
