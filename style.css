@@ -35,7 +35,7 @@ figure {
     height: auto;
     margin: 0 auto;
     max-width: 136.6rem;
-    margin-bottom: 1.0rem;
+    margin-top: 1.0rem;
     margin-bottom: 1.0rem;
 }
 
@@ -88,6 +88,7 @@ ul li.itens {
 a {
     color: var(--font-primary-color);
     text-decoration: none;
+    margin-left: 3.0rem;
 }
 
 a:active,
@@ -99,8 +100,8 @@ a:visited {
 .titlesection{
     border-style: solid;
     border-color: var(--font-primary-color);
-    border-top: 1px;
-    border-bottom: 1px;
+    border-top: 100%;
+    border-bottom: 100%;
 }
 
 
